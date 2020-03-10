@@ -5,11 +5,11 @@ import {Box, Flex} from '@chakra-ui/core'
 
 function App() {
   return (
-    <div>
+    <Flex flexDirection="column" minH="100%" >
       <NavBar>
           <Info></Info>
       </NavBar>
-    </div>
+    </Flex>
   );
 }
 
