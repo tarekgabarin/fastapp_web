@@ -7,8 +7,6 @@ import {
     DrawerContent,
     DrawerCloseButton,
     useDisclosure,
-    Button, 
-    Input,
     Box, 
     Flex, 
     Heading
@@ -31,7 +29,7 @@ import {
       color="menge"
     >
       <Flex align="center" mr={5}>
-        <Heading as="h1" size="lg" letterSpacing={"-.1rem"}>
+        <Heading fontFamily="logo" as="h1" size="lg" letterSpacing={".1rem"}>
           FastApp
         </Heading>
       </Flex>

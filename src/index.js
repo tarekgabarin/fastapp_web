@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import "./index.css"
 import * as serviceWorker from './serviceWorker';
 import { ThemeProvider, CSSReset, theme } from "@chakra-ui/core";
 
@@ -10,6 +11,10 @@ const ThemedApp = () => {
 
     const customTheme = {
         ...theme,
+        fonts: {
+        ...theme.fonts,
+        logo: "'Lobster', cursive;"
+        },
         colors: {
             ...theme.colors,
             lightMossGreen: '#B8D8BA',
